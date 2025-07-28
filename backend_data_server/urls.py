@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include('homepage.urls')),
     path("demo/rest/api/", include('demo_rest_api.urls')),  # Include demo REST API URLs
+    path("landing/api/",include('landing_api.urls'))
 ]
